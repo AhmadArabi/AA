@@ -1,0 +1,91 @@
+.simple-slider .swiper-slide {
+  /*height: 600px;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  /*width: 50px;*/
+  /*margin-left: 20px;*/
+  /*margin-right: 20px;*/
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    /*display: none;*/
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    /*height: 360px;*/
+  }
+}
+
+.imgAppSlide {
+  width: 100%;
+}
+
+.simple-slider.SS {
+  width: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  border: solid 1px rgba(255,255,255,0.1);
+  box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .simple-slider.SS {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+
+.swiper-button-next1 {
+  border-left: solid 1px rgba(255,255,255,0.1);
+}
+
+.swiper-button-prev1 {
+  border-right: solid 1px rgba(255,255,255,0.1);
+}
+
+.divNavSlideHolder {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: solid 1px rgba(255,255,255,0.1);
+  position: relative;
+  background: rgba(0,0,0,0.2);
+}
+
+.SliderNavBtn {
+  transition: ease 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.SliderNavBtn:hover {
+  transition: ease 0.3s;
+  background: orange;
+  cursor: pointer;
+}
+
+.swiper-button-next2 {
+  border-left: solid 1px rgba(255,255,255,0.1);
+}
+
+.swiper-button-prev2 {
+  border-right: solid 1px rgba(255,255,255,0.1);
+}
+
+.dCCCSocialPostsHolder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
